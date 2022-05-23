@@ -1,0 +1,33 @@
+.puneCity{
+    height: 725px;
+    background-color: #cccccc;
+}
+.iconHead{
+    font-style: italic;
+    font-size: 25px;
+    color: #b2b2b2;
+}
+.headerPart{
+    background-color: #f0f0f0;
+    height: 60px;
+}
+.bttn{
+    height: 40px;
+    background-color: #fe610c;
+}
+.login{
+    border: none;
+}
+.cardDecor{
+    margin-top: 50px;
+    /* height: ; */
+}
+.fclr{
+    color: #8b8b8b;
+}
+.btnClr{
+    background-color: #2f932b;
+}
+.imgDeco:hover{
+    cursor: pointer;
+}

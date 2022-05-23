@@ -1,0 +1,26 @@
+<div class="row LoginHeading align-items-center bg-warning">
+        <h3 class="sppb-title-heading delay-09s animated wow fadeInDown animated gall-head" style="visibility:visible; animation-name: fadeInDown; text-align: center; margin-bottom: 15px;">LOGIN HERE</h3>
+</div>
+<div class="container-fluid login">
+  <div class="text-box" style="background-color:rgba(0,0,0,0.2);">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label>User Name</label><hr>
+            <input type="email" name="email" class="form-control" formControlName="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label><hr>
+            <input type="password" name="loginpass" class="form-control" formControlName="loginpass">
+        </div>
+        <hr>
+        <button class="btn btn-warning">Login</button>
+        <button class="btn btn-warning ms-5" (click)="onRegister()">Register</button>
+        <hr>
+    </form>
+  </div>
+  <div class="container">
+    <div class="text-box1 text-white">
+        <span><b>THE BEST COMPANY</b></span>
+    </div>
+</div>
+</div>

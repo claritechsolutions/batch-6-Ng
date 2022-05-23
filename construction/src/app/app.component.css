@@ -1,0 +1,35 @@
+.dropdown-1:hover .dropdown-1-menu{
+    display: block;
+}
+.deco{
+    width: 100%;
+    height: 1000px; 
+    display: inline;
+    /* position: absolute; */
+    background-image: url('../assets/Image/slide2.jpg');
+    position: sticky;
+    
+   
+}
+.nav{
+    position: static;
+}
+
+.text-box{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 300px;
+    font-size: 50px;
+    color: white;
+    font-family: "Droid Serif";
+    text-align: left;
+
+}
+.text-box.text-deco{
+    size: 10%;
+}
+.btn.text-box{
+    font-family: "Montserrat";
+    
+}
+

@@ -1,0 +1,26 @@
+.registerForm{
+    width: 500px;
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1000px;
+    padding: 80px;
+    font-size: 25px;
+   
+}
+.register{
+    height: 1300px;
+    background-image: url('../assets/image/VanSchendel-Construction.jpg');
+    position: relative;
+}
+.text-box1{
+    font-size: 50px;
+    margin-top: 200px;
+    position: absolute;
+}
+.text-box2{
+    font-size: 50px;
+    margin-top: 350px;
+    position: absolute;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="deco">
+      <div class="row">
+        <nav class="navbar navbar-expand bg-warning navbar-light justify-content-start text-white">
+          <div class="container">
+            
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-twitter text-white"></i></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" [href]="link"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [href]="link"><i class="fa-brands fa-instagram-square text-white"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [href]="link"><i class="fa-brands fa-pinterest text-white"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [href]="link"><i class="fa-brands fa-google-plus-g text-white"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <ul class="navbar-nav me-auto ">
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" [href]="link"><i  class="fa-solid fa-phone text-white"> </i> {{case1}}</a>
+                  </li>
+                  <li class="nav-item"> 
+                    <a class="nav-link" href="#"><i class="fa-solid fa-envelope text-white"></i>{{case2}}</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-clock text-white"></i>{{date | date:'medium'}}</a>
+                  </li>
+
+                </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+        
+    </div>
+  
+    
+</body>
+</html>

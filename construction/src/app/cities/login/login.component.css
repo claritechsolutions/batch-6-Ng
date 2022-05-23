@@ -1,0 +1,67 @@
+.login{
+    height: 700px;
+    /* margin-top: 50px; */
+    /* background-color: #cccccc; */
+    background-image: url('../assets/image/image1.jpg');
+    position: static;
+}
+.LoginHeading{
+    text-align: center;
+    color: #837c7c;
+}
+
+
+
+
+.test1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+}
+label{
+    font-weight: bold;
+}
+/* .ctn{
+    width: 700px;
+    background-color: white;
+    padding: 20px;
+    border-radius: solid 5px;
+     */
+
+.text-box{
+    border-radius:  solid 10px;
+    border-color:  #837c7c;
+    /* margin-top: 50px; */
+    margin-left: 950px;
+    margin-right: 200px;
+    font-size: 30px;
+    color: #837c7c;
+    padding: 80px;
+    height: 500px;
+}
+.container{
+    position: absolute;
+    font-size: 60px;
+}
+.font{
+    font-size: 10px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    margin: top 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+input{
+    border: 1px solid rgb(58, 55, 55);
+}
+button{
+   margin-left: 0px;
+   }
+.ctn1{
+    width: 200px;
+    background-color: rgb(156, 146, 241);
+    padding: 20px;
+
+}

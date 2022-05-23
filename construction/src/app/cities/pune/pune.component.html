@@ -1,0 +1,124 @@
+<div class="container-fluid puneCity">
+    <div class="row  align-items-center headerPart">
+        <div class="col-3 text-center">
+            <span class="fw-bolder iconHead">CONSTROTech</span>
+        </div>
+        <div class="col-6">
+            <select class="form-select">
+                <option *ngFor="let cn of constroCompanyName">{{cn}}</option>
+            </select>
+        </div>
+        <div class="col-3">
+            <button pButton type="button" label="Free Listing" class="bttn"></button>
+
+            <button class="login ms-4" (click)="onLogin()">Login</button>/
+            <button class="login" (click)="onRegister()">Register</button>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 cardDecor">
+            <div class="card" style="width: 18rem; height: 100%;">
+                <img src="../assets/image/images.jpg"
+                    class="card-img-top imgDeco" alt="..." (click)="onGoelGanga()" style="height: 209px;">
+                <div class="card-body">
+                    <h5 class="card-title">Goal Ganga Constructions</h5>
+                    <p class="card-text">
+                    <div class="row fclr" *ngIf="puneAddress">
+                        <div class="col-2"><i class="pi pi-phone"></i></div>
+                        <div class="col-10">{{puneAddress.contact_number}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-home"></i></div>
+                        <div class="col-10 mt-2">{{puneAddress.address}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-angle-double-right"></i></div>
+                        <div class="col-10 mt-2">{{puneAddress.company_name}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-at"></i></div>
+                        <div class="col-10 mt-2">{{puneAddress.email}}</div>
+                    </div>
+
+                    <button class="btn btn-primary mt-5 ms-5 btnClr" (click)="onBtnGanga()">OPEN NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 cardDecor">
+            <div class="card" style="width: 18rem; height: 100%;">
+                <img src="../assets/image/Construction.jpg"
+                    class="card-img-top imgDeco" alt="..." (click)="onLarsons()">
+                <div class="card-body">
+                    <h5 class="card-title">Larsons And Turbo Constructions</h5>
+                    <p class="card-text">
+
+                    <div class="row fclr" *ngIf="puneAddressOf1">
+                        <div class="col-2"><i class="pi pi-phone"></i></div>
+                        <div class="col-10">{{puneAddressOf1.contact_number}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-home"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf1.address}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-angle-double-right"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf1.company_name}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-at"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf1.email}}</div>
+                    </div>
+                    <button class="btn btn-primary mt-3 ms-5 btnClr" (click)="onBtnLarsons()">OPEN NOW</button>
+
+                </div>
+            </div>
+        </div>
+         <div class="col-3 cardDecor">
+            <div class="card" style="width: 18rem;  height: 100%;">
+                <img src="../assets/image/Unauthorised-constructions-in-Pune-What-home-buyers-need-to-watch-out-for-FB-1200x700-compressed.jpg"
+                    class="card-img-top imgDeco" alt="..." (click)="onNyathi()">
+                <div class="card-body">
+                    <h5 class="card-title">Nyathi Construction</h5>
+                    <p class="card-text">
+                    <div class="row fclr" *ngIf="puneAddressOf2">
+                        <div class="col-2"><i class="pi pi-phone"></i></div>
+                        <div class="col-10">{{puneAddressOf2.contact_number}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-home"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf2.address}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-angle-double-right"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf2.company_name}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-at"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf2.email}}</div>
+                    </div>
+
+                    <button class="btn btn-primary mt-3 ms-5 btnClr" (click)="onBtnNyathi()">OPEN NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 cardDecor">
+            <div class="card" style="width: 18rem; height: 100%;">
+                <img src="../assets/image/VanSchendel-Construction.jpg"
+                    class="card-img-top imgDeco" alt="..." (click)="onParel()" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                <div class="card-body">
+                    <h5 class="card-title">Parel Developers</h5>
+                    <p class="card-text">
+                    <div class="row fclr" *ngIf="puneAddress">
+                        <div class="col-2"><i class="pi pi-phone"></i></div>
+                        <div class="col-10">{{puneAddressOf3.contact_number}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-home"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf3.address}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-angle-double-right"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf3.company_name}}</div>
+
+                        <div class="col-2 mt-2"><i class="pi pi-at"></i></div>
+                        <div class="col-10 mt-2">{{puneAddressOf3.email}}</div>
+                    </div>
+
+                    <button class="btn btn-primary mt-5 ms-5 btnClr" (click)="onBtnParel()">OPEN NOW</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+</div>

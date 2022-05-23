@@ -1,0 +1,31 @@
+.AboutHeading{
+    height: 100px;
+    font-size: 100px;
+    text-align: center;
+    
+}
+.iconSet{
+    font-size: 45px;
+    margin-left: 150px;
+}
+.aboutFirst{
+    background-color: #fff;
+    height: 300px;
+    align-items: center;
+}
+.ms{
+    margin-left: 90px;
+}
+.SecondDiv{
+    height: 350px;
+    padding-top: 100px;
+    color: #fff;
+    
+}
+.backImage{
+    
+    background-image: url('/assets/background-images/bg-section-4.jpg');
+    height: 500px;
+    width: 100%;
+    
+}

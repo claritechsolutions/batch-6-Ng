@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="header.component.css">
+
+</head>
+
+
+<body>
+
+    <div class="container-fluid bg-dark " id="">
+        <div class="row " id="">
+            <div class="col-6" id="col6">
+                <nav class="navbar navbar-expand-sm   pt-2">
+                    <div class="row justify-content-start" id="row-2">
+                        <ul class="nav navbar-nav pl-2">
+                            <li class="nav-item px-5" id="icon">
+                                <a [href]="link"><i class="fab fa-facebook-f" aria-style="font-size: larger;"></i></a>
+                            </li>
+                            <li class="nav-item px-5" id="icon">
+                                <a [href]="link1"><i class="fab fa-twitter" style="font-size: larger;"></i></a>
+                            </li>
+                            <li class="nav-item px-5" id="icon">
+                                <a [href]="link2"><i class="fab fa-instagram" style="font-size: larger;"></i></a>
+                            </li>
+                            <li class="nav-item px-5" id="icon">
+                                <a [href]="link3"><i class="fab fa-google-plus-g" style="font-size: larger;"></i></a>
+                            <li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-2  m-auto " id="row1">
+                <a href="tel:+1 718-999-3939 " style="color:#ffff; font-size:small;"><i class="fas fa-phone-alt "></i> {{phone}} </a>
+            </div>
+            <div class="col-2 m-auto " id="row1">
+                <a href="contact@construction.com " style="color:#ffff; font-size:small;"><i class="fas fa-envelope "></i>  {{email}} </a>
+            </div>
+            <div class="col-2 m-auto " id="row1">
+                <i class="fa-solid fa-calendar-days"><span style="color:#ffff; font-size:small;"> {{ date | date}} </span></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid sticky-top " id="">
+        <div class="row justify-content-start " style="background-color: rgba(0,0,0,.2);">
+            <div class="col-2  pt-2" id="col6">
+                <img src="../assets/img/logo-light.png ">
+            </div>
+            <div class="col-8 " id="col6">
+                <nav class="navbar navbar-expand-sm justify-content-end   pt-2" id="">
+                    <div class="row ">
+                        <ul class="nav navbar-nav " id="title">
+                            <li class="nav-item dropdown px-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark "
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" routerLink="home/aboutus">About Us</a></li>
+                                    <li><a class="dropdown-item" routerLink="home/futurework">Future Work</a></li>
+                                    <li><a class="dropdown-item" routerLink="home/facilities">facilities</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown px-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portfolio
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" routerLink="portfolio/commercial">Commercial</a>
+                                    </li>
+                                    <li><a class="dropdown-item" routerLink="portfolio/education">Education</a></li>
+                                    <li><a class="dropdown-item" routerLink="portfolio/indutrial">Industrial</a>
+                                    </li>
+                                    <li><a class="dropdown-item" routerLink="portfolio/residential">Residential</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown px-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    services
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item"
+                                            routerLink="ourservice/architectrual-design">ArchitectrualDesign</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            routerLink="ourservice/construction-consultant">Construction
+                                            Consultant</a>
+                                    </li>
+                                    <li><a class="dropdown-item" routerLink="ourservice/house-renovation">House
+                                            Renovation</a></li>
+                                    <li><a class="dropdown-item"
+                                            routerLink="ourservice/reconstruction-service">Reconstruction
+                                            Service</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown px-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">cities
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" routerLink="city/pune">Pune</a></li>
+                                    <li><a class="dropdown-item" routerLink="city/mumbai">Mumbai</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../../assets/img/slide1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../../assets/img/slide2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../../../assets/img/slide3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+</body>
+
+</html>
+
+<!-- <app-aboutus></app-aboutus> -->

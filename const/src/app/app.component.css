@@ -1,0 +1,59 @@
+/* icons */
+.fa-facebook-f{
+  color:rgb(81,110,171);
+}
+.fa-instagram{
+  color:rgb(187, 55, 136);
+}
+.fa-google-plus-g {
+  color:rgb(4, 45, 167);
+}
+.fa-twitter{
+  color:rgb(41,197,246);
+}
+
+.fa-phone-alt{
+  color: white;
+  
+}
+.fa-envelope{
+  color: white;
+
+}
+.fa-envira{
+  color: white;
+}
+
+.footers{
+  position:static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+
+}
+
+#one{
+position: fixed;
+}
+
+/* body{  */
+    /* position: fixed; */
+    /* left: 0px; */
+    /* top: 0px; */
+    /* z-index: -1;
+  background-image:url("https://cavendishmaxwell.com/resources/uploads/2019/05/New-construction-contracts-awarded-for-major-projects-min.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  height: 100vh;
+  /* width: 100px; */
+
+  .w-100 {
+    width: 100% !important;
+    height: 600px;
+  }
+
+

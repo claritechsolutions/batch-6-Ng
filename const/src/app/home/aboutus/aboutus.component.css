@@ -1,0 +1,28 @@
+.card-body{
+    border:1px solid rgb(95, 92, 92)
+}
+.card-1{
+    background-color: rgb(195, 234, 247);
+}
+
+
+.fa-compass-drafting{
+    /* border:1px solid red; */
+    font-size: 50px;
+    background-color:gold;
+    margin-left: 150px;
+
+}
+.fa-helmet-safety{
+    font-size: 50px;
+   background-color:gold;
+    margin-left: 150px;
+
+}
+
+.fa-plug-circle-bolt{
+    font-size: 50px;
+    background-color:gold;
+    margin-left: 150px;
+ 
+}

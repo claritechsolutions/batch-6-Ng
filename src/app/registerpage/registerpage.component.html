@@ -1,0 +1,50 @@
+
+<div class="container">
+    <div class="row">
+        <div class="class-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Visitor Registration Form</h1>
+                    <h6>Please fill all the Details !!</h6>
+                </div>
+                <form>
+                    <form [formGroup]="registerForm" (ngSubmit)="Register()">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                          <input formControlName="name" type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          
+                
+                          
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Enter Mobile number</label>
+                            <input formControlName="mobile" type="text" name="mobile" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Enter Email</label>
+                            <input formControlName="email"type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Enter Address </label>
+                            <textarea class="form-control" formControlName="address" name="address" type="text" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Enter Enquiry </label>
+                            <textarea class="form-control" formControlName="enquiry" name="enquiry" type="text" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        
+                        
+                        <button type="submit" class="btn btn-primary" >Signup </button>
+                        <br><br>
+                        
+                      </form>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

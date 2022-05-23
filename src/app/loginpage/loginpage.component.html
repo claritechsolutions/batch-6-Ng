@@ -1,0 +1,40 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5" style="text-align:center; color: cornflowerblue; font-family: cursive; font-weight: bold;" > <marquee > Welcome to "RK Construction"</marquee> </h1>
+        
+    </div>
+
+<div class="container">
+    <div class="row">
+        <div class="class-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Visitors login</h1>
+                    <h6>You think..we build !!</h6>
+                </div>
+                <form>
+                    <form [formGroup]="loginpage" (ngSubmit)="login()" >
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                          <input formControlName="name"  type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Fullname"
+                          [ngClass]="{'is-invalid': f['name'].touched && f['name'].errors}" >
+                          <div *ngIf="f['name'].touched && f['name'].errors?.['required']" class="invalid-fedback" style="color:red">please enter name</div>
+                           
+                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Mobile number</label>
+                          <input formControlName="mobile" type="password" placeholder="Enter Password" class="form-control" id="exampleInputPassword1"[ngClass]="{'is-invalid': f['mobile'].touched && f['mobile'].errors}">
+                          <div *ngIf="f['mobile'].touched && f['mobile'].errors?.['required']" class="invalid-fedback" style="color:red">Mobile Num required</div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-warning" (click)="onSubmit" >Login</button>
+                        <br><br>
+                        <a style="color:black; font-weight: bold; " routerLink="/registerpage" > Signup for New Users<i class="bi bi-arrow-right"></i></a>
+                      </form>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

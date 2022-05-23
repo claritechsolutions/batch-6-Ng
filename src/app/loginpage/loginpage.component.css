@@ -1,0 +1,29 @@
+/* .container{
+    background-image: url(../../assets/Images/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.banner
+{
+    background-image: url('../../assets/Images/img4.jpg');
+    height: 650px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position:top;
+    
+    top: 0%;
+    left: 0%;
+    transform: translate(0%,0%); 
+    /* background:rgb(238, 175, 57); */
+    /* background: linear-gradient(90deg,rgb(0, 0, 39) 0%,rgb(118, 240, 128) 100%); */
+   background-color: unset;
+   background-image: url('../../assets/Images/img7.jpg');
+   background-repeat: no-repeat;
+   color: black;
+}

@@ -1,0 +1,91 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "Raju bhosale",
+      "mobile": "9923314314",
+      "email": "rajnikantbhosale15@gmail.com",
+      "address": "asfsdagadgfsdg",
+      "enquiry": "vnfgnfgmghmc",
+      "id": 2
+    },
+    {
+      "name": "Infosys Ltd",
+      "mobile": "9800000000",
+      "email": "Infosys@gmail.com",
+      "address": "Hinjewadi",
+      "enquiry": "About Corporate Construction",
+      "id": 3
+    },
+    {
+      "name": "sachin sarak",
+      "mobile": "9700000000",
+      "email": "sachine@gmail.com",
+      "address": "ryteytruytuitiuty",
+      "enquiry": "jgjkgjkhjkhljkh",
+      "id": 4
+    },
+    {
+      "name": "ganesh shinde",
+      "mobile": "9600000000",
+      "email": "ganesh@gmail.com",
+      "address": "Solapur",
+      "enquiry": "About bunglow",
+      "id": 5
+    },
+    {
+      "name": "ganesh shinde",
+      "mobile": "9700000000",
+      "email": "Infosys@gmail.com",
+      "address": "ewqrwr",
+      "enquiry": "qwrqewr",
+      "id": 6
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "address": "",
+      "enquiry": "",
+      "id": 7
+    },
+    {
+      "name": "Ramesh Survase",
+      "mobile": "9898989898",
+      "email": "ramesh@gmail.com",
+      "address": "rrytyudtsaydsaddtau",
+      "enquiry": "uxycytctxcscvsdvsdvsd",
+      "id": 8
+    },
+    {
+      "name": "papu wagmare",
+      "mobile": "",
+      "email": "",
+      "address": "",
+      "enquiry": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "address": "",
+      "enquiry": "",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

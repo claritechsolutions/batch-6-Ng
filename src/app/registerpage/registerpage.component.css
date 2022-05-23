@@ -1,0 +1,14 @@
+.card{
+    /* border: none; */
+    width: 800px;
+    padding: 40px;
+    position:top;
+    top: 10%;
+    left: 50%;
+     transform: translate(-50%,-10%);
+    /* background:rgb(180, 248, 116);
+    background: linear-gradient(90deg,rgb(167, 202, 243) 0%,rgb(55, 236, 79) 100%); */ 
+    background-image: url(../../assets/Images/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

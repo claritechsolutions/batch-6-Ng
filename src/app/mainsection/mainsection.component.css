@@ -1,0 +1,292 @@
+
+  
+
+
+#top-bar,
+#top-bar a i {
+  color: white;
+  font-size: 1.5rem;
+}
+#top-bar-text {
+    font-size: 15px;
+   
+}
+#top-bar {
+    font-size: 0.928em;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(112, 107, 107);
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    
+}
+#top-bar-inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.container1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    background-attachment: fixed;
+}
+#top-bar .top-bar-inner-wrap {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background-attachment: fixed;
+  }
+
+  #top-bar.style-2 .top-bar-socials {
+    text-align: left;
+  }
+  #top-bar .top-bar-socials {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 25%;
+  }
+  
+  .icons a i {
+    margin-right: 12px;
+    margin-left: 12px;
+    color: #fff;
+    font-size: 15px;
+  }
+  span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-attachment: fixed;
+  
+    font: inherit;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+  }
+  /* li span {
+    pointer-events: fill;
+  } */
+  #top-bar.style-2 .top-bar-content {
+    text-align: right;
+   
+  }
+  #top-bar .top-bar-content {
+    display: table-cell;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+    width: 75%;
+    
+  }
+  #top-bar .top-bar-content i {
+    margin-right: 12px;
+    margin-left: 12px;
+    color: #fff;
+    font-size: 26px;
+    margin-top: 5px;
+    background-color: rgba(0,0,0,0.8);
+  } 
+
+  .bgimg{
+    background-image: url(../../assets/Images/img22.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+  }
+
+  .headerset{
+    padding-top: 220px;
+    box-sizing: border-box;
+    
+  }
+
+  .headerset h2{
+    font-size: 32px;
+  }
+  .headerset h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: yellow;
+  }
+  /* ......................//OurServices//....... */
+
+  .ourservices{
+    padding: 80px 0px 60px;
+  }
+
+  .ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .rowsetting{
+    margin: 65px 0px;
+  }
+  .rowsetting h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .fa-solid{
+    margin: 22px;
+  }
+/* ***********************image slider***************************   */
+.imgslider{
+  background-image: url(../../assets/Images/img5.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 680px;
+}
+.imgslider h1 {
+  text-align: center;
+  font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+}
+.imgslider p{
+  text-align: center;
+  font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(10, 138, 243);
+}
+#slider {
+  overflow: hidden;
+  width:80%;
+  margin-left: 11%;
+  
+  
+}
+
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite ;
+}
+#slider figure img{
+  width: 100px;
+  height: 500px;
+  margin-top: 0.75%;
+  margin-bottom: 2%;
+  border-radius: 2%;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+}
+@keyframes slider{
+  0% {
+    left:0%
+  }
+  20% { 
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+/* ******Portfolio****** */
+.portfolio{
+  height: 1100px;
+  width: 100%;
+  padding: 100px 0px 20px;
+}
+.portfolio h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+}
+.card{
+  margin-top: 40px;
+}
+
+
+*.footer {
+
+  background-color: #1a1a1a;
+  position: relative;
+  top: 100%;
+  padding: 20px 20px;
+  z-index: 1;
+  border-style: solid;
+}
+
+
+h4,
+i {
+  color: white;
+  right: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+h5{
+  color: white;
+  text-align: justify;
+}
+
+p {
+  display: block;
+  color: #979797
+}
+
+.col-4 .bi {
+  margin-left: 20px;
+  font-size: 30px;
+  padding-top: 5px;
+  position: relative;
+
+}
+
+h5,h4{
+  display: block;
+  text-decoration: underline   yellow;
+} 
+.footer1{
+  background-color: #1a1a1a;
+}
+.animate__heartBeat{
+  animation: infinite;
+
+}
+
+

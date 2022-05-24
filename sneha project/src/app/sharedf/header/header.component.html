@@ -1,0 +1,124 @@
+<!-- <p>header works!</p> -->
+
+
+    <nav class="navbar navbar-expand-md navbar-dark " style="background-color:rgba(0, 0, 0, 0.493) ;">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2 text-white">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" [href]="link"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [href]="link3"><i class="fa-brands fa-google"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"[href]="link1"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [href]="link2"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-phone">{{no}}</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i>{{mail}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">{{date | date }}</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- second navbar logo and contet -->
+    <nav class=" navbar sticky-top  navbar-expand-lg " style="background-color:rgba(0, 0, 0, 0.363);">
+        <div class="div">
+            <a class="nav" rauterlink="#">
+                <img src="../assets/img/logo-light.png" alt="">
+
+            </a>
+        </div>
+        <div class="container-fluid ">
+
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end ml-auto" id="navbarNavAltMarkup ">
+                <div class="navbar-nav ml-right ">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            home
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" routerLink="home/aboutus">About Us</a></li>
+                            <li><a class="dropdown-item" routerLink="home/facilities">Facilities</a></li>
+                            <li><a class="dropdown-item" routerLink="home/futurework">futurework</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false ">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" routerLink="portfolio/commercial">Commercial</a></li>
+                            <li><a class="dropdown-item" routerLink="portfolio/educational">Educational</a></li>
+                            <li><a class="dropdown-item" routerLink="portfolio/industrial">Industrial</a></li>
+                            <li><a class="dropdown-item" routerLink="portfolio/residental">Residential</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            services
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" routerLink="services/architehturaldesign">Architectrual
+                                    Design</a></li>
+                            <li><a class="dropdown-item" routerLink="services/constructioncunsultant">Construction
+                                    Consultant</a>
+                            </li>
+
+                            <li><a class="dropdown-item" routerLink="services/houserenovation">House Renovation</a></li>
+                            <li><a class="dropdown-item" routerLink="services/reconstructionservices">Reconstruction
+                                    Service</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            city
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" routerLink="city/satara">MUMBAI</a></li>
+                            <li><a class="dropdown-item" routerLink="city/nashik">PUNE</a></li>
+
+                        </ul>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+ 
+
+ 
+     </nav>
+
+
+
+     <!-- slider ani navbar -->
+     
+     
+     
+
+

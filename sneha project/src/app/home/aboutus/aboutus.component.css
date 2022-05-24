@@ -1,0 +1,28 @@
+icard{
+    background-color:rgba(175, 134, 20, 0.315) ;
+}
+.cardbody
+{
+    background-color: antiquewhite;
+}
+
+.fa-compass-drafting{
+    /* border:1px solid red; */
+    font-size: 50px;
+    background-color:gold;
+    margin-left: 150px;
+
+}
+.fa-helmet-safety{
+    font-size: 50px;
+   background-color:gold;
+    margin-left: 150px;
+
+}
+
+.fa-plug-circle-bolt{
+    font-size: 50px;
+    background-color:gold;
+    margin-left: 150px;
+ 
+}

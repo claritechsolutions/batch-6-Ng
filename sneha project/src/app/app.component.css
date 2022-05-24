@@ -1,0 +1,24 @@
+/* .bg
+{
+    
+    background-image: url('../assets/img/img1.jpg' );
+    height: 900px;
+    width: 100%;
+    position: absolute;
+} */
+
+    
+
+
+
+.text
+{
+text-align: center;
+}
+.fdiv
+{
+background-image: url('../assets/img/img2.jpg');
+position: absolute;
+
+}
+

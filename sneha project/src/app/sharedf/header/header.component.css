@@ -1,0 +1,23 @@
+
+
+
+
+ /* .bg
+{
+    
+     background-image: url('../assets/img/img1.jpg' ); 
+    height: 900px;
+    width: 100%;
+    position:sticky;
+}  */
+#one{
+    position: fixed;
+}
+
+#two{
+    position: fixed;
+}
+
+.n{
+    padding-bottom: 50;
+}
